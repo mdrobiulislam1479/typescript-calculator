@@ -12,3 +12,7 @@ function divide(a: number, b: number): number {
   }
   return a / b;
 }
+
+function power(base: number, exponent: number = 2): number {
+  return Math.pow(base, exponent);
+}
